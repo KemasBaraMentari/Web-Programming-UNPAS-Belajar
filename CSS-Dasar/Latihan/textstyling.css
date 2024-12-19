@@ -1,0 +1,16 @@
+/* comment di css */
+
+h1{
+    font-size: 45px;
+    color: #d6fa29;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    font-family: serif;
+    color: rgb(142,41,250);
+    text-indent: 100px;
+}
+a{
+    text-decoration: none;
+}
