@@ -1,0 +1,17 @@
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px auto 55px; /*atas kanan-kiri bawah*/
+}
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 30px 40px 50px 60px; /*atas kanan bawah kiri*/
+}
+.tiga{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
