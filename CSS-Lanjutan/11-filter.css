@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+h1{
+    filter: drop-shadow(5px 5px 5px black);
+}
+img{
+    height: 450px;
+}
+
+/* Filter
+Blur
+Brightness
+Contrast
+Saturate
+Grayscale
+Sepia
+Hue-rotate
+Invert
+Opacity
+Drop-shadow
+*/
+
+.wony1{
+    filter: blur(2px);
+}
+.wony2{
+    filter: brightness(1.5);
+}
+.wony3{
+    filter: saturate(1.5);
+}

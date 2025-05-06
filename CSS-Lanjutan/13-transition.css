@@ -1,0 +1,20 @@
+/* 
+transition: [property] <durasi> [fungsi] [nilai]
+'<wajib>'
+*/
+.satu{
+    width: 1000px;
+    border: 2px solid black;
+    margin: auto;
+}
+.dua{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+    transition: 2s;
+}
+.satu:hover .dua{
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: lightblue;
+}

@@ -1,0 +1,13 @@
+div{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    background-image: radial-gradient(circle, yellow 20%, lightblue 30%, blue 60%);
+}
+/* color stop 
+sama seperti linear gradient*/
+/* value lengkap
+(tipe, jangkauan 'at' posisi-y, posisi-x, warna 1, warna 2, ...) */
+/* memindahkan pusat gradient
+(posisi-x : top, center, bottom, ...px)
+begitu juga posisi-y */

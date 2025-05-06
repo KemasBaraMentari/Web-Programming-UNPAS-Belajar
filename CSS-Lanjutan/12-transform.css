@@ -1,0 +1,18 @@
+.kotak{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+    margin: 100px auto 0;
+    transition: 0.8s;
+}
+.kotak:hover{
+    transform: scale(0.8) rotate(-45deg);
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    transition: 0.8s;
+}
+p:hover{
+    transform: skew(30deg) translate(50px);
+}
