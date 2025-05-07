@@ -1,0 +1,19 @@
+.kotak{
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    animation: animation 5s ease infinite alternate;
+}
+@keyframes animation{
+    0%{
+        width: 150px;
+    }
+    50%{
+        width: 400px;
+        height: 150px;
+    }
+    100%{
+        width: 400px;
+        height: 400px;
+    }
+}
