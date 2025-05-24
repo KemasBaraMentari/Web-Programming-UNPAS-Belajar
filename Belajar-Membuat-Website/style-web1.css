@@ -109,8 +109,39 @@ h1{
 .overlay:target .close{
     animation: slidedownfade 0.8s 0.5s forwards;
 }
+.overlay:target .next{
+    animation: fade 0.8s 0.5s forwards;
+}
+.overlay:target .prev{
+    animation: fade 0.8s 0.5s forwards;
+}
+
+/* Navigasi */
+.next, .prev{
+    width: 50px;
+    height: 50px;
+    background-image: url(icons8-next.png);
+    position: absolute;
+    text-indent: -9999px;
+    top: 50%;
+    margin-left: 50px;
+    opacity: 0;
+}
+.prev{
+    background-image: url(icons8-previous.png);
+    margin-left: -100px;
+}
 
 /* Animasi */
+@keyframes fade{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes zoomandfade{
     0% {
         transform: scale(0);
