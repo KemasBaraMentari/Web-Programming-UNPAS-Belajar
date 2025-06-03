@@ -44,9 +44,9 @@
 
 
 // Cara 3 - Constructor
-function Halo(){
-    console.log(this)
-    console.log('Halo!')
-};
-var obj1 = new Halo();
-var obj2 = new Halo(); // this mengembalikan Object yang baru dibuat
+// function Halo(){
+//     console.log(this)
+//     console.log('Halo!')
+// };
+// var obj1 = new Halo();
+// var obj2 = new Halo(); // this mengembalikan Object yang baru dibuat
